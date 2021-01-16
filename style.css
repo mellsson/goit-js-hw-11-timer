@@ -1,0 +1,19 @@
+.timer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+field {
+
+}
+
+.field .value {
+    font-size: 80px;
+}
+.field:not(:last-child){
+    margin-right: 50px;
+}
+.value {
+    display: block;
+}
